@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Evelynx | Kathmandu, Nepal</title>
+<meta name="description" content="Start a project with Evelynx — software, cloud, cybersecurity and brand work in Kathmandu. Email, phone, WhatsApp, or send a message." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header id="hdr">
+  <div class="wrap nav-inner">
+    <a class="logo" href="index.html">Evelynx</a>
+    <nav aria-label="Main"><ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="approach.html">Approach</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="partners.html">Partners</a></li>
+      <li><a class="btn btn-solid" href="contact.html">Start a project</a></li>
+    </ul></nav>
+    <button class="ham" id="ham" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+<div class="mega" id="mega" aria-hidden="true">
+  <div class="mega-photo" aria-hidden="true">
+    <img src="https://picsum.photos/seed/evx-menu/600/800" alt="" loading="lazy">
+  </div>
+  <nav class="mega-list" aria-label="Full screen menu">
+    <a class="mega-row" href="index.html"><span class="mega-title">01/Home</span><span class="mega-tags">Software // Cloud // Security // Brand</span><span class="mega-go" aria-hidden="true">→</span></a>
+    <a class="mega-row" href="approach.html"><span class="mega-title">02/Approach</span><span class="mega-tags">Listen // Prove // Scale</span><span class="mega-go" aria-hidden="true">→</span></a>
+    <a class="mega-row" href="services.html"><span class="mega-title">03/Services</span><span class="mega-tags">Software // Cloud // Security // AI // Design</span><span class="mega-go" aria-hidden="true">→</span></a>
+    <a class="mega-row" href="work.html"><span class="mega-title">04/Our Work</span><span class="mega-tags">Web // Apps // Brand // Campaigns</span><span class="mega-go" aria-hidden="true">→</span></a>
+    <a class="mega-row" href="about.html"><span class="mega-title">05/About</span><span class="mega-tags">Team // Values // Compliance</span><span class="mega-go" aria-hidden="true">→</span></a>
+    <a class="mega-row" href="partners.html"><span class="mega-title">06/Partners</span><span class="mega-tags">AWS // Azure // GCP // Figma</span><span class="mega-go" aria-hidden="true">→</span></a>
+    <a class="mega-row" href="contact.html"><span class="mega-title">07/Contact</span><span class="mega-go" aria-hidden="true">→</span></a>
+  </nav>
+</div>
+
+<main id="main">
+  <section class="page-hero" style="padding-bottom:2rem">
+    <div class="wrap">
+      <!-- TODO: replace q= with your exact office address for a precise pin -->
+      <div class="map rv">
+        <iframe title="Map — Evelynx office, Kathmandu" src="https://www.google.com/maps?q=Kathmandu,+Nepal&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <h1 class="giant rv">Contact</h1>
+
+      <div class="contact-side rv">
+        <span class="lab">Email</span><a href="mailto:info@evelynxsolutions.com.np">info@evelynxsolutions.com.np</a>
+        <span class="lab">Phone / WhatsApp</span><a href="tel:+9779768969780">+977-9768969780</a> · <a href="https://wa.me/9779768969780" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <span class="lab">Office</span><p>Kathmandu, Nepal</p>
+        <span class="lab">Hours</span><p>Mon – Fri, 8:00 AM – 5:00 PM (NPT)</p>
+      </div>
+
+      <form id="contactForm" novalidate>
+        <div class="row">
+          <div><label for="fn">First name</label><input id="fn" required placeholder="First Name" autocomplete="given-name"></div>
+          <div><label for="ln">Last name</label><input id="ln" required placeholder="Last Name" autocomplete="family-name"></div>
+        </div>
+        <label for="em">Email address</label><input id="em" type="email" required placeholder="you@domainname.com" autocomplete="email">
+        <label for="ph">Phone</label><input id="ph" type="tel" required placeholder="+977 98XXXXXXXX" autocomplete="tel">
+        <label for="msg">Message</label><textarea id="msg" required placeholder="Send us a message..."></textarea>
+        <!-- TODO: link your real privacy policy, or delete this row -->
+        <div class="consent"><span>Please agree to our <a href="#" style="text-decoration:underline">privacy policy</a></span><input type="checkbox" id="consent"></div>
+        <div class="send"><button class="btn btn-solid" id="sendBtn" type="submit" disabled>Send Message
+          <svg width="20" height="12" viewBox="0 0 40 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M0 8h36M30 2l6 6-6 6"/></svg></button></div>
+      </form>
+      <div class="form-ok" id="formOk"><strong>Thanks — message received.</strong><br>We reply within one business day, or reach us directly at <a href="mailto:info@evelynxsolutions.com.np">info@evelynxsolutions.com.np</a>.</div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <p>© <span id="year"></span> Evelynx Solutions Pvt. Ltd. — Kathmandu, Nepal · Mon–Fri 8:00–5:00 NPT</p>
+    <p><!-- TODO: real URLs --><a href="#">LinkedIn</a> · <a href="#">Facebook</a> · <a href="#">Instagram</a></p>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
